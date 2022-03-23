@@ -1,0 +1,77 @@
+h1,
+h2 {
+  text-align: center;
+}
+
+h1 > span {
+  color: #037bc0;
+}
+
+.contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%; /*para que la imagen siempre tenga el max de width independientemente de como sea el div etc */
+  display: block; /*para que no tenga espacio entre la imagen y otro elemento */
+}
+
+.enlaces {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+
+.hero {
+  background-image: url(../../../public/img/principal.jpg);
+  height: 25rem;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*categorias */
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.category > span {
+  text-align: center;
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+.category > span:hover {
+  background-color: #037bc0;
+  color: #fff;
+  border-bottom-right-radius: 10px;
+}
+/*sobre nosotros */
+
+.about-us {
+  background-image: linear-gradient(
+      to right,
+      transparent 50%,
+      #037bc0 50%,
+      #037bc0 50%
+    ),
+    url(../../../public/img/nosotros.jpg);
+    background-size: 100%, 1200px;
+    padding: 100px 0px;
+    background-position: left center;
+}
+.about-us-grid {
+    display: flex;
+    justify-content: flex-end;
+}
+.about-us-text {
+    flex-basis: 40%;
+    color: #fff;
+    line-height: 21px;
+}
+.about-us-text h3 {
+    font-size: 30px;
+}
