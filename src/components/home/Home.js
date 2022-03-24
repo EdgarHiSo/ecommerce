@@ -56,7 +56,86 @@ function Home() {
                 </div>
             </section>
 
+            <main className="main-box contenedor">
 
+                <h2>Nuestros Productos</h2>
+                <div className="product-list ">
+
+                    <div className="product">
+                        <img src='/img/producto1.jpg' alt='producto1' />
+                        <div className="product-text">
+                            <h3>Producto 1</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+                    <div className="product">
+                        <img src='/img/producto2.jpg' alt='producto2' />
+                        <div className="product-text">
+                            <h3>Producto 2</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+                    <div className="product">
+                        <img src='/img/producto3.jpg' alt='producto3' />
+                        <div className="product-text">
+                            <h3>Producto 3</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+                    <div className="product">
+                        <img src='/img/producto4.jpg' alt='producto4' />
+                        <div className="product-text">
+                            <h3>Producto 4</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+                    <div className="product">
+                        <img src='/img/producto5.jpg' alt='producto5' />
+                        <div className="product-text">
+                            <h3>Producto 5</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+                    <div className="product">
+                        <img src='/img/producto6.jpg' alt='producto6' />
+                        <div className="product-text">
+                            <h3>Producto 6</h3>
+                            <p>
+                                Proin condimentum sodales risus ut aliquet. Nunc
+                                eu neque quis sapien feugiat posuere sed nec mauris.
+                            </p>
+                            <p className='price'>$1,000,000.00</p>
+                            <span className="btn">Agregar al Carrito</span>
+                        </div>
+                    </div>
+
+                </div>
+            </main>
         </div>
     )
 }
